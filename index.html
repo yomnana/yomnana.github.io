@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yama Vans Homepage</title>
+
+    <!-- STYLE SHEETS -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+
+<!-- This is where all the body content begins -->
+<body>
+    <!-- Navigation -->
+    <!-- DESKTOP NAV -->
+    <header class="margin-default">
+        <nav id="top-nav" class="padding-40 flex-row-center hidden-mobile">
+            <div id="yama-logo"><a href="index.html"><img src="images/yama-logo.svg"></a></div>
+            <ul>
+                <li class="all-caps"><a href="#">Process</a></li>
+                <li class="all-caps"><a href="#">Vans</a></li>
+                <li class="all-caps"><a href="about.html">About</a></li>
+                <li class="all-caps"><a href="#">Stories</a></li>
+            </ul>
+            <button class="btn-dark"><a>Start your build</a></button>
+        </nav>
+
+        <!-- MOBILE NAV -->
+        <nav id="top-nav" class="padding-40 flex-row-center hidden-desktop">
+            <div id="yama-logo"><a href="index.html"><img src="images/yama-logo.svg"></a></div>
+
+            <div> <!-- HAMBURGER ICON -->
+                <svg width="48" height="23" viewBox="0 0 48 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="48" height="2" transform="translate(0 0.634029)" fill="black"/>
+                <rect width="48" height="2" transform="translate(0 10.634)" fill="black"/>
+                <rect width="48" height="2" transform="translate(0 20.634)" fill="black"/>
+                </svg>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section>
+        <div class="padding-80 margin flex-row-center hidden-mobile hero-mobile">
+            <h1>Get Back to Wild</h1>
+            <div class="subhead"><p class="all-caps">Custom Adventure Vans, Crafted to Order</p></div>
+        </div>
+        
+        <div class="img-hero">
+            <img src="images/yama-hero-2.jpg" class="img-100">
+        </div>
+    </section>
+
+
+    <!-- What Drives Us -->
+    <section class="section-texture">
+        <div class="padding-default margin-default flex-row-mobile"> <!-- Basecamp Row -->
+            <div class="flex-left">
+                <h3 class="all-caps">Basecamp reimagined</h3>
+            </div>
+
+            <div class="flex-right">
+                <h2>What drives us</h2>
+                <p class="p-lg">We finely tune our vans for year-round, off-grid travel throughout the  Canadian Rockies and beyond. From designing the van together to when our  clients get behind the wheel, we ensure a smooth, informative, and  exciting ride.</p>
+                <button class="btn-line all-caps"><a>Explore Our Process</a></button>
+            </div>
+        </div>
+
+        <div class="margin flex-row-mobile"> <!-- Quote + Image Row -->
+            <div class="flex-left">
+                <div>
+                    <p>“Hands down the best van conversion company in Canada if not North America”</p>
+                </div>
+
+                <div>
+                    <p class="p-bold">Scott Z, Manitoba, CAN</p>
+                        <img src="images/yama-stars.svg">
+                </div>  
+            </div>
+
+            <div class="flex-right">
+                <img src="images/yama-img-1.jpg" class="img-100">
+            </div>
+        </div>
+
+
+        <div class="margin-default section-texture hidden-mobile"> <!-- Graphic Text Row -->
+            <p class="graphic-text">The road is calling</p>
+        </div>
+    </section>
+
+
+    <!-- Explore Our Builds -->
+    <section id="explore-img">
+        <div class="gradient"></div>
+        <div class="explore reverse">
+            <h2 class="h2-reverse">Explore our Builds</h2>
+            <p>Get a better look at some of our favourite builds to-date.</p>
+            <button class="btn-line all-caps"><a>Build Spotlight</a></button>
+        </div>
+    </section>
+
+
+    <!-- Testimonials & About -->
+    <section class="section-texture">
+        <div class="padding-default margin-default flex-row-mobile"> <!-- From our clients -->
+            <div class="flex-left">
+                <br>
+            </div>
+
+            <div class="flex-right"> 
+                <h2>From our clients</h2>
+                <div class="quote-box">
+                    <p class="p-lg">"From our first phone call to the delivery of our new build the  experience has been first class. Not only is their product and  workmanship excellent I have really appreciated their timely  communication throughout the whole process."</p>
+                    <p>Suzy B, Alberta, CAN</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="padding-bottom margin flex-row-mobile"> <!-- About Us -->
+            <div class="flex-left">
+                <h3 class="all-caps">About Us</h3>
+            </div>
+
+            <div class="flex-right">
+                <h2>Invention > convention</h2>
+                <p class="p-lg">Yama Vans is the manifestation of our desire to defy convention and live  lives of our own invention. And we knew we weren’t alone. Now we make  vans for people like us. People who want to write their stories on the  roads beneath their wheels, the trails beneath their boots, the waves  beneath their boards, and the powder beneath their skis.</p>
+                <button class="btn-line all-caps"><a>Our Story</a></button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Video -->
+    <section>
+        <video class="video-block" width="100%" height="auto" autoplay muted loop>
+            <source src="images/yama-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+        </video> 
+    </section>
+
+
+    <!-- Start Your Build -->
+    <section class="sect-dark padding-default flex-column">
+        <div>
+            <h2 class="h2-reverse">Start your build</h2>
+            <button class="btn-line-reverse all-caps"><a>Contact Us</a></button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="padding-80 margin-default grid-footer1"><!-- Footer 1 -->
+            
+            <div id="yama-logo"><img src="images/yama-logo.svg"></div>
+            
+            <div class="footer-1-wrap">
+                <div class="footer-1-left"><!-- Footer 1 Left -->
+                    <p>Your adventure starts here. Yama Vans is based in Calgary, Canada, delivering custom vans across North America. We build vehicles for adventure that allow you to spend more time living freely.</p>
+                    <p class="copyright">©2024 Yama Vans. All Rights Reserved. <a href="#">Privacy Policy.</a></p>
+                </div>
+
+                <div class="footer-1-right"><!-- Footer 1 Right -->
+                    <nav id="footer-nav">
+                        <ul class="footer-nav">
+                            <li><a href="#">Process</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Stories</a></li>
+                            <li><a href="#">Work at Yama</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <button class="btn-grey all-caps"><a>Explore our show Van, The Grand Teton</a></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="sect-dark padding-80"><!-- Footer 2 -->
+            <div class="margin grid-footer2">
+                <div class="footer-2-left">
+                    <p class="reverse">Sign up for our newsletter to hear about new builds, events, and updates from our shop.</p>
+                    <form>
+                        <label class="form-label reverse">Email<span style="color: red;">*</span></label>
+                        <input type="text" name="Email" class="form-field">
+                        <input type="submit" value="Submit" class="form-button">
+                    </form>
+                </div>
+
+                <div class="footer-2-right">
+                    <div class="flex-footer-box">
+                        <div class="heading-underline"><h3 class="all-caps reverse">Shop Address</h3></div>
+                        <p><a href="https://goo.gl/maps/NN1oxCDJmLGw9HSS8" class="reverse" style=" text-decoration: none;">334 53 Ave SE Unit 100, Calgary, AB T2H 0N3</a></p>
+                    </div>
+
+                    <div class="flex-footer-box">
+                        <div class="heading-underline"><h3 class="all-caps reverse">Social</h3></div>
+                        <div>
+                            <a href="#"><img src="images/yama-ig.svg" class="social-icons"></a>
+                            <a href="#"><img src="images/yama-youtube.svg" class="social-icons"></a>
+                            <a href="#"><img src="images/yama-pinterest.svg" class="social-icons"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+
